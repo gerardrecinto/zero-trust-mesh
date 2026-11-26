@@ -28,7 +28,7 @@ a{color:var(--link)}code{font:13px ui-monospace,Menlo,monospace}
 <body>
 <main>
 <h1>zero-trust-mesh-lab</h1>
-<p class="mut">Mutual TLS with SPIFFE-style workload identities, default-deny authorization and an audit trail, in Go. The grid below is the recorded result of real TLS connections made by <code>cmd/matrix</code>, not a mock-up. Personal learning project, not a production system and not a replacement for a real CA or a service mesh.</p>
+<p class="mut">Mutual TLS with SPIFFE-style workload identities, default-deny authorization and an audit trail, in Go. The grid below is the recorded result of real TLS connections made by <code>cmd/matrix</code>, not a mock-up. Not a replacement for a real CA or a service mesh.</p>
 
 <h2>Who can call what</h2>
 <p class="legend"><span class="pill allowed">allowed</span> identity verified and a rule allows it <span class="pill forbidden">forbidden</span> identity verified, no rule allows it (HTTP 403) <span class="pill rejected">rejected</span> refused during the TLS handshake, the request never reached the service</p>
