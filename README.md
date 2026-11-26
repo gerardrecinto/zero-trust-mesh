@@ -4,7 +4,7 @@ Mutual TLS with SPIFFE-style workload identities, default-deny authorization and
 
 **Live demo:** https://gerardrecinto.github.io/zero-trust-mesh-lab/ shows the recorded result of every identity against every target, the certificate lifecycle (expiry, rotation, revocation, policy reload) and the audit log.
 
-Personal learning project. It is not a production system, not a replacement for a real CA, and not a service mesh.
+A zero-trust workload identity and mTLS model.
 
 ## The model
 
